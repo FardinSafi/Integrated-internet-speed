@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>API Viewer</title>
+    <style>
+        #api-content {
+            width: 100%;
+            height: 600px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>API Viewer</h1>
+    <label for="api-select">Select API:</label>
+    <select id="api-select">
+        <option value="">Select an API</option>
+        <option value="api1">Fast.com</option>
+        <option value="api2">LibreSpeed</option>
+        <option value="api3">M-Lab</option>
+    </select>
+    <iframe id="api-content"></iframe>
+
+    <script src="script.js"></script>
+</body>
+</html>
